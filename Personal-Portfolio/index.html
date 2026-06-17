@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haidar Alhaidari | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>Haidar Alhaidari</h2>
+
+            <ul>
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#about">Om mig</a></li>
+                <li><a href="#skills">Färdigheter</a></li>
+                <li><a href="#projects">Projekt</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+
+            
+        </nav>
+    </header>
+
+<section id="home" class="hero">
+
+    <img src="images/profile.jpg"
+         alt="Haidar Alhaidari"
+         class="profile-img">
+
+    <h1>Hej, Jag heter Haidar Alhaidari</h1>
+
+    <p>
+        Frontend-utvecklare och student inom webbutveckling.
+    </p>
+
+    <a href="#projects" class="btn">Se mina projekt</a>
+
+        <div class="social-links">
+        <a href="https://haidaralhaidari.github.io/cv-webbplats/" target="_blank">
+            Mitt CV
+        </a>
+
+        <a href="https://www.linkedin.com/in/haidar-alhaidari-14a768412/?skipRedirect=true" target="_blank">
+            LinkedIn
+        </a>
+       </div>
+
+</section>
+
+    <section id="about">
+        <h2>Om mig</h2>
+        <p>
+            Jag studerar frontend-utveckling och är intresserad av att skapa
+            moderna och användarvänliga webbplatser med HTML, CSS och JavaScript.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Mina färdigheter</h2>
+
+        <div class="cards">
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">GitHub</div>
+            <div class="card">Java</div>
+            <div class="card">C#</div>
+            <div class="card">React</div>
+            <div class="card">MySQL</div>
+          
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Mina projekt</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>Personlig portfolio byggd med HTML, CSS och JavaScript.</p>
+            </div>
+
+            <div class="card">
+                <h3>To-Do App</h3>
+                <p>En applikation för att hantera uppgifter.</p>
+            </div>
+
+            <div class="card">
+                <h3>Weather App</h3>
+                <p>Visar väderinformation från ett API.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cakery Website</h3>
+                <p>En webbplats för en bakverksamhet.</p>
+            </div>
+
+            <div class="card">
+                <h3>Skateboard Park Website</h3>
+                <p>En webbplats för en skateboardpark.</p>
+            </div>
+
+            <div class="card">
+                <h3>E-commerce Website</h3>
+                <p>En webbplats för en e-handel.</p>
+            </div>
+            <div class="card">
+                <h3>Library App</h3>
+                <p>En applikation för en bibliotek.</p>
+            </div>
+            <div class="card">
+                <h3>E-Commerce Website</h3>
+                <p>En webbplats för en e-handel.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+
+<form id="contactForm">
+
+    <input
+        type="text"
+        id="name"
+        placeholder="Namn">
+
+    <input
+        type="email"
+        id="email"
+        placeholder="E-post">
+
+    <textarea
+        id="messageText"
+        placeholder="Skriv ditt meddelande här..."></textarea>
+
+    <button type="submit">
+        Skicka
+    </button>
+
+</form>
+
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <button id="themeBtn">Byt tema</button>
+        <p>© 2026 Haidar Alhaidari</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
